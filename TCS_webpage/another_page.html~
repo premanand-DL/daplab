@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>black_white - another page</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+           <h1><a href="index.html">TCS Project <span class="logo_colour">-Distant speaker recognition using microphone array</span></a></h1>
+          <h2>Electrical Engineering Dept. IIT Bombay</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+           <li ><a href="index.html">Home</a></li>
+          <li><a href="current.html">Current work</a></li>
+          <li><a href="past.html">Past Work</a></li>
+          <li class="selected"><a href="links.html">Downloads</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Latest Activity</h3>
+        <h4>None</h4>
+        <h5>Note: Recordings will be shared on Google Drive </h5>
+        <p><br /><a href="#"></a></p>
+        <p></p>
+        <h4></h4>
+        <h5></h5>
+        <p><br /><a href="#"></a></p>
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="George_MTP_v2.pdf" target="_blank">George's Thesis Report</a></li>
+          <li><a href="MTP_Final_PPT.pdf" target="_blank">George_MTP (PPT)</a></li>
+         
+        </ul>
+        
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h2>References</h2>
+<ol>
+<li>C. Zhang, D. Florêncio, D. E. Ba, and Z. Zhang, “Maximum likelihood sound source
+localization and beamforming for directional microphone arrays in distributed meetings,”
+<i>IEEE Transactions on Multimedia</i>, vol. 10, no. 3, pp. 538–548, 2008.</li>
+<li>C. Knapp and G. Carter, “The generalized correlation method for estimation of
+time delay,” <i>IEEE Transactions on Acoustics, Speech, and Signal Processing</i>, vol. 24,
+no. 4, pp. 320–327, 1976.</li>
+<li>Xavier Anguera, Chuck Wooters and Javier Hernando, <i>Acoustic beamforming
+for speaker diarization of meetings</i>, IEEE Trans. Audio, Speech, and Lang.
+    Proc., Sep. 2007, vol. 15, no. 7, pp.
+    2011-2023.<a href="../static/acoustic_beamforming_for_speaker_diarization_of_meetings_TASLP_2007.pdf">[download]</a> </li>
+<li>Xavier Anguera, <i>Robust Speaker Diarization for Meetings</i>, PhD Thesis,
+UPC Barcelona, 2006.
+<a href="robust_speaker_diarization_for_meetings_PhD_Thesis_Xavier_Anguera.pdf">[download]</a></li>
+<li>Xavier Anguera, Miro Simon Bozonnet, Nicholas Evans, Corinne Fredouille,
+Gerald Friedland, and Oriol Vinyals, <i>Speaker Diarization: A Review of Recent
+Research</i>, IEEE Trans. Audio, Speech, and Lang. Proc., Feb. 2012, vol. 20,
+no. 2, pp.
+356-370.<a href="../static/speaker_diarization_a_review_of_recent_research_TASLP_2012.pdf">[download]</a></li>
+</ol>
+
+      </div> <!-- div#content -->
+      
+      
+    
+      </div>
+    </div>
+    <div id="footer">
+  
+
+  
+      
+       
+          
+           Principal investigators: Prof. Preeti Rao, Prof. Rajbabu Velmurugan
+          
+        
+      
+    
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>IITB-TCS</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">TCS Project <span class="logo_colour">-Distant speaker recognition using microphone array</span></a></h1>
+          <h2>Electrical Engineering Dept. IIT Bombay, Powai</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="current.html">Current work</a></li>
+          <li><a href="past.html">Reference</a></li>
+      
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Latest Activity</h3>
+        <h4>None</h4>
+        <h5>Note: Recordings will be shared on Google Drive </h5>
+        <p><br /><a href="#"></a></p>
+        <p></p>
+        <h4></h4>
+        <h5></h5>
+        <p><br /><a href="#"></a></p>
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="George_MTP_v2.pdf" target="_blank"> MTP Report (George)</a></li>
+          <li><a href="MTP_Final_PPT.pdf" target="_blank">MTP PPT (George)</a></li>
+         <li><a href="array_configuration.docx" target="_blank">Possible Array Config.</a></li>
+ <li><a href="text.pdf" target="_blank">Spoken text</a></li>
+        </ul>
+        
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+     
+        
+        
+        
+        
+<h2 align='center'>Overview</h2><p>Speech is the most natural mode of communication and distant speech recognition
+enables us to communicate conveniently with other devices without any body or head-mounted microphones. But the real world deployment of such systems comes with a lot
+of challenges. This work seeks to address the two major challenges in such a system namely
+noise and reverberation by using microphone arrays. Many noise reduction and dereverberation algorithms already exist, but so far no clear methods have emerged that combine
+the advantages of multi and single-channel methods with the aim of improving speech
+recognition performances. As a preliminary work, the ASR performances of different
+multi-microphone algorithms based on beamforming techniques are compared. Prior to
+beamforming, different source localizations were implemented to accurately estimate the
+direction of the speaker.</p>
+<h2>Goal</h2>
+<p>Having a scenario of a meeting room, we wish to extract out the desired speaker from the group of speakers and convert his spoken words to text
+for the purpose of documenting or displaying his/her spoken words. Achieving this conversion from speech to text is not a straight-forward task as one needs to take
+care of reverberation and noise. Also, there can be a case where multiple speakers are speaking and only a single speaker needs to be recorded.
+This work tries to overcome
+two main challenges noise and reverberation commonly occurring in enclosed scenarios
+like home and meeting environments using an array of microphones.<p>
+<h2>Proposed system</h2><p>The microphone array based Distant Speech Recognition(DSR) systems can be decomposed into three different modules:</p>
+
+<img style="border:2px solid grey; border-radius:10px"  src="sys_ov.png" alt="system block diagram" align="middle" width="600px" height="420px"/><div align="middle">Figure: Proposed system</div> 
+<p>1. Acoustic Source Localisation and beamforming: Localization is a process of finding the direction of the speaker
+using the information from the signals received at the microphone array. Beamformer spatially filters the signals to attenuate
+noise from directions other than the estimated speaker direction.<br/>
+2. Single-Channel Enhancement: The post-filtering process of single channel speech signal for further mitigation of noise and reverberation.</br>
+3.Automatic Speech Recognition (ASR): Speech recognition engine generates a hypothesis regarding what the speaker said
+from the enhanced acoustic waveform with help of a trained acoustic and language models. These hypotheses are compared with reference text to compute accuracy in terms
+of WER.</p><br/>
+<h3>Setup for recording</h3>
+<p>The microphone array used to record the speaker(s) was a uniform circular array. The position of the array and the speakers are shown in the figure below:</p>
+<div align='center'><br/><img style="border:2px solid grey; border-radius:10px" src="circular.png" width="70%" height="70%"  />
+<p align='middle'>Figure: TCS- Uniform circular array</p></div>
+<p>The speakers are located at an obtuse angle with respect to one another.</p>
+      <div id="footer">
+   
+
+  
+      
+       
+          
+           Principal investigators: Prof. Preeti Rao & Prof. Rajbabu Velmurugan
+          
+        
+      
+    </div>
+    </div>
+
+</body>
+</html>

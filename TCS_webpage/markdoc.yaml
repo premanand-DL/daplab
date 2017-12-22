@@ -1,0 +1,6 @@
+wiki-name: "IITB_TCS"
+wiki-dir: "wiki"
+static-dir: "static"
+html-dir: "html"
+# Building
+document-extensions: [.md, .mdown, .markdown, .wiki, .text]

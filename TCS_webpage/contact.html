@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>IITB-TCS</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+<script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+             <h1><a href="index.html">TCS Project <span class="logo_colour">-Distant speaker recognition using microphone array</span></a></h1>
+          <h2>Electrical Engineering Dept. IIT Bombay, Powai</h2>
+        </div>
+      </div>
+      <div id="menubar">
+          <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li ><a href="index.html">Home</a></li>
+          <li><a href="current.html">Current work</a></li>
+          <li><a href="past.html">Reference</a></li>
+      
+          <li class="selected"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Latest Activity</h3>
+        <h4>None</h4>
+        <h5>Note: Recordings will be shared on Google Drive </h5>
+        <p><br /><a href="#"></a></p>
+        <p></p>
+        <h4></h4>
+        <h5></h5>
+        <p><br /><a href="#"></a></p>
+        <h3>Useful Links</h3>
+        <ul>
+         <li><a href="George_MTP_v2.pdf" target="_blank"> MTP Report (George)</a></li>
+          <li><a href="MTP_Final_PPT.pdf" target="_blank">MTP PPT (George)</a></li>
+         <li><a href="array_configuration.docx" target="_blank">Possible Array Config.</a></li>
+ <li><a href="text.pdf" target="_blank">Spoken text</a></li>
+        </ul>
+        
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Contact</h1>
+        <p></p>
+        <form method="post" name="myemailform" action="form-to-email.php">
+          <div class="form_settings">
+            <p><span>Name</span><input class="contact" type="text" name="name" value="" /></p>
+            <p><span>Email Address</span><input class="contact" type="text" name="email" value="" /></p>
+            <p><span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="message"></textarea></p>
+            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="submit" value="submit" /></p>
+          </div>
+        </form>
+<script language="JavaScript">
+// Code for validating the form
+// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+// for details
+var frmvalidator  = new Validator("myemailform");
+frmvalidator.addValidation("name","req","Please provide your name"); 
+frmvalidator.addValidation("email","req","Please provide your email"); 
+frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+</script>
+        <p><br /><br />NOTE: A contact form such as this would require some way of emailing the input to an email address.</p>
+      </div>
+    </div>
+    <div id="footer">
+       <hr>
+
+  
+      
+       
+          
+           Principal investigators: Prof. Preeti Rao & Prof. Rajbabu Velmurugan
+  </div>
+</body>
+</html>

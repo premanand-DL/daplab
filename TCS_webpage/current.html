@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>IITB-TCS</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+           <h1><a href="index.html">TCS Project <span class="logo_colour">-Distant speaker recognition using microphone array</span></a></h1>
+          <h2>Electrical Engineering Dept. IIT Bombay, Powai</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+         <li><a href="index.html">Home</a></li>
+          <li class="selected"><a href="current.html">Current work</a></li>
+          <li><a href="past.html">Reference</a></li>
+        
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Latest Activity</h3>
+        <h4>None</h4>
+        <h5>Note: Recordings will be shared on Google Drive </h5>
+        <p><br /><a href="#"></a></p>
+        <p></p>
+        <h4></h4>
+        <h5></h5>
+        <p><br /><a href="#"></a></p>
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="George_MTP_v2.pdf" target="_blank"> MTP Report (George)</a></li>
+          <li><a href="MTP_Final_PPT.pdf" target="_blank">MTP PPT (George)</a></li>
+ <li><a href="array_configuration.docx" target="_blank">Possible Array Config.</a></li>
+<li><a href="text.pdf" target="_blank">Spoken text</a></li>
+         
+        </ul>
+        
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+       <h3>Current Work</h3>
+<p>The existing work in the literature is being reviewed. Source localization and beamforming was applied to existing TCS 
+recordings. We initially take forward this work for a scenario of <b>non-overlapping speakers</b>. Post-filtering is done for single-channel recording of the microphone array using CNMF model with/without NMF model for speech. For illustration, 
+sound files of a recorded non-overlapping speaker and it's beamformed output is given (obtained from the system mentioned in the proposed <a href='sys_ov.png' target='_blank'>model</a>):</p>
+<table border=1>
+<tr><td>
+<audio controls>
+   
+  <source src="Spk1_MA_NO.mp3" type="audio/wav">
+</audio>  </td>
+<td>Distant speaker</td></tr>
+<tr><td> <audio controls>
+
+  <source src="DSB_Spk1.mp3" type="audio/wav" >
+</audio></td>
+<td>DSB (beamforming) </td></tr>
+<tr><td>
+<audio controls>
+   
+  <source src="cnmf_nmf.mp3" type="audio/wav">
+</audio>  </td>
+<td>CNMF-NMF (Post-filtering)</td></tr>
+</table>
+</div>
+<p>ASR needs to be performed to compare these methods with respect to the obtained word error rate (<a href='https://martin-thoma.com/word-error-rate-calculation/' >WER</a>) ( for the recordings being shared on the google drive).
+Post filtering was done on mono-channel .wav files by considering a channel recording of microphone array.     
+After obtaining the ASR results for the recordings being shared, the following  needs to be updated:</p>
+<div>
+
+
+<table>
+<tr><th>Method</th><th><a href='cd.pdf' style ="color:white">CD</a></th><th>f-SNR</th><th><a href='http://davidakenny.net/cm/fit.htm' style ="color:white">SRMR</a></th><th>WER</th></tr>
+<tr><td>Without beamforming</td><td>2.57</td><td>4.30</td><td>6.60</td><td>&nbsp;?</td></tr>
+<tr><td>&nbsp;<a href='http://www.labbookpages.co.uk/audio/beamforming/delaySum.html' target='_blank'>DSB</a></td><td>2.48</td><td>7.70</td><td>8.22</td><td>&nbsp;?</td></tr>
+<tr><td>&nbsp;<a href="https://www.vocal.com/beamforming/minimum-variance-distortionless-response-mvdr-beamformer/" target='_blank'>MVDR</a></td><td>2.33</td><td>6.23</td><td>6.77</td><td>&nbsp;?</td></tr>
+<tr><td>&nbsp;<a href="https://link.springer.com/chapter/10.1007/978-0-387-68836-7_3" target='_blank'>LCMV</a></td><td>2.44</td><td>6.10</td><td>7.40</td><td>&nbsp;?</td></tr>
+<tr><td>&nbsp;<a href="https://link.springer.com/chapter/10.1007/978-3-662-04619-7_2" target='_blank'>SDB</a></td><td>2.70</td><td>5.70</td><td>6.90</td><td>&nbsp;?</td></tr>
+</table>
+<!-- DivTable.com -->
+<table>
+<tbody>
+<tr>
+<th>Single-channel<br /> enhancement methods</th>
+<th>WER</th>
+</tr>
+<tr>
+<td>CNMF</td>
+<td>&nbsp; ?</td>
+</tr>
+<tr>
+<td>CNMF-NMF</td>
+<td>&nbsp; ?</td>
+</tr>
+</tbody>
+</table>
+<!-- DivTable.com -->
+</div>
+
+        </form>
+      </div>
+    </div>
+    <div id="footer">
+  </ul>
+
+      </div>
+    </div>
+   <div id="footer">
+   <hr>
+
+  
+      
+       
+          
+           Principal investigators: Prof. Preeti Rao & Prof. Rajbabu Velmurugan
+          
+        
+      
+    
+    </div>
+  </div>
+</body>
+</html>
